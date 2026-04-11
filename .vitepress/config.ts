@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
+  base: '/yeshan-bookself/',
   title: "笔由随心",
   description: "📖笔由随心是一个个人笔记的集合",
   head: [
