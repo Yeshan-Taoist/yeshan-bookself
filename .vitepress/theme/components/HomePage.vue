@@ -11,7 +11,7 @@
 
     <!-- 右上角导航栏 -->
     <div class="mode-indicator">
-      <a class="subtle-link mode-link" href="/admin.html">CMS</a>
+      <a class="subtle-link mode-link" target="_blank" href="https://blog.yeshan-taoist.cn/">我的博客</a>
       <div class="mode-dot" id="dot-night"></div>
       <div class="mode-dot" id="dot-day"></div>
       <div class="mode-dot" id="dot-sunny"></div>
@@ -71,10 +71,10 @@
       <section class="section connect-section">
         <div class="section-title">Connect</div>
         <div class="links links-connect">
-          <a href="/blogApi?action=getRss" target="_blank" rel="noreferrer">RSS</a>
-          <a href="https://www.xiaohongshu.com/user/profile/6720c690000000001c01b883" target="_blank"
-            rel="noreferrer">小红书</a>
-          <a href="mailto:gainubi@gmail.com">邮箱</a>
+          <a href="https://v.douyin.com/HsoNLClVVMk/" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="https://space.bilibili.com/628881884?spm_id_from=333.1007.0.0" target="_blank"
+            rel="noreferrer">BiLiBiLi</a>
+          <a href="mailto:mypotato90@outlook.com">邮箱</a>
         </div>
       </section>
     </main>
