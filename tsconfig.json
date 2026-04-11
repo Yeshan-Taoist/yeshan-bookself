@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "/*": [
+        "*"
+      ]
+    }
+  },
+  "include": [
+    ".vitepress/**/*.mts",
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.js",
+    "**/*.md"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vitepress/cache",
+    ".vitepress/dist"
+  ]
+}
