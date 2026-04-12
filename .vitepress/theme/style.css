@@ -459,8 +459,8 @@ body.sunny .light-shaft {
   transition: color 250ms var(--ease);
 }
 
+/*.post-content,*/
 .entry-excerpt,
-.post-content,
 .comment-content {
   white-space: pre-wrap;
   word-break: break-word;
@@ -512,12 +512,13 @@ body.sunny .light-shaft {
   text-wrap: balance;
 }
 
+/*
 .post-content {
   color: var(--text);
   font-size: 16px;
   line-height: 2.05;
 }
-
+*/
 body.sunny .logo-letter,
 body.sunny .entry-title,
 body.sunny .post-title,
@@ -592,6 +593,7 @@ body.sunny .noise {
   opacity: 0.016;
 }
 
+/*
 .post-content p+p,
 .post-content p+blockquote,
 .post-content blockquote+p,
@@ -605,7 +607,7 @@ body.sunny .noise {
   color: var(--mid);
   font-size: 15px;
 }
-
+*/
 .comment-form,
 .stack-form {
   display: grid;
@@ -1311,6 +1313,7 @@ kbd {
     margin-bottom: 22px;
   }
 
+  /*
   .post-content {
     font-size: 15px;
     line-height: 1.92;
@@ -1320,7 +1323,7 @@ kbd {
     padding-left: 12px;
     font-size: 14px;
   }
-
+*/
   .comment-form,
   .stack-form {
     gap: 14px;
@@ -1432,13 +1435,95 @@ kbd {
     font-size: 25px;
   }
 
+  /*
   .post-content {
     font-size: 14px;
     line-height: 1.9;
   }
-
+*/
   .mode-indicator {
     top: 12px;
     right: 14px;
   }
+}
+
+/* 侧边栏主题适配 */
+/* 默认暗色主题 */
+:root {
+  --vp-sidebar-bg-color: var(--bg);
+  /* 使用你的暗色背景变量 */
+}
+
+/* light 主题 */
+body.light {
+  --vp-sidebar-bg-color: var(--bg);
+  /* 浅色背景 */
+}
+
+/* sunny 主题 */
+body.sunny {
+  --vp-sidebar-bg-color: var(--bg);
+  /* 暖色背景 */
+}
+
+:root,
+body.light,
+body.sunny {
+  --vp-sidebar-bg-color: var(--bg);
+  --vp-local-nav-bg-color: var(--bg);
+  --vp-c-text-1: var(--text);
+  --vp-c-text-2: var(--mid);
+  --vp-c-border: var(--line);
+}
+
+/* 默认暗色侧边栏 */
+body.VPSidebar {
+  background-color: var(--bg);
+  border-right: 1px solid var(--line);
+}
+
+/* 覆盖局部导航栏背景色 */
+body.VPLocalNav {
+  background-color: var(--bg) !important;
+  border-bottom-color: var(--line) !important;
+}
+
+.VPLocalNavOutlineDropdown {
+  display: none !important;
+}
+
+/* light 主题侧边栏 */
+body.light .VPSidebar {
+  background-color: var(--bg);
+  border-right-color: var(--line);
+}
+
+body.light .VPSidebar .text {
+  color: var(--text);
+}
+
+body.light .VPSidebar .caret-icon {
+  color: var(--mid);
+}
+
+body.light .VPSidebar .link:hover .text {
+  color: var(--accent);
+}
+
+/* sunny 主题侧边栏 */
+body.sunny .VPSidebar {
+  background-color: var(--bg);
+  border-right-color: var(--line);
+}
+
+body.sunny .VPSidebar .text {
+  color: var(--text);
+}
+
+body.sunny .VPSidebar .caret-icon {
+  color: var(--mid);
+}
+
+body.sunny .VPSidebar .link:hover .text {
+  color: var(--accent);
 }

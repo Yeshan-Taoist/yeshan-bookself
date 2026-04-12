@@ -37,7 +37,7 @@
           </div>
         </header>
         <!-- 文章正文 -->
-        <div class="post-content">
+        <div class="VPContent VPDoc content vp-doc">
           <Content />
         </div>
       </article>
@@ -146,12 +146,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* 你可以在此处覆盖或补充样式，但主要样式应从全局 style.css 继承 */
-.post-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .post-meta {
   color: #666;
   font-size: 0.9rem;

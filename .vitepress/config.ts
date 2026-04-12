@@ -11,6 +11,7 @@ export default {
   ],
   appearance: false,
   themeConfig: {
+    outline: false,   // 禁用所有页面的右侧目录
     sidebar
   }
 }
