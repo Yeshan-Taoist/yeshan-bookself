@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@types/node": "^25.6.0",
     "vitepress": "^2.0.0-alpha.17"
   },
   "scripts": {

@@ -53,7 +53,7 @@
             </a>
           </article>
         </div>
-        <div v-if="latestPosts.length === 0" id="posts-empty" class="empty-state">还没有发布文章。你可以先去后台写第一篇。</div>
+        <div v-if="allPosts.length === 0" id="posts-empty" class="empty-state">还没有发布文章。你可以先去后台写第一篇。</div>
       </section>
 
       <!-- 翻页功能 -->
@@ -87,16 +87,14 @@
 
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import { postsData } from '/posts.ts'   // 确保你的数据文件是 posts.ts 并放在根目录
+import { data } from '../../posts.data'
 
-// 文章翻页功能
-const latestPosts = postsData.allPosts
+// 从数据加载器中获取所有文章和分类树
+const { allPosts, categories } = data
+
 // 分页配置
-const pageSize = 6           // 每页显示文章数，可根据需要调整
+const pageSize = 8           // 每页显示文章数
 const currentPage = ref(1)
-
-// 所有文章（从 postsData.allPosts 获取）
-const allPosts = postsData.allPosts
 
 // 总页数
 const totalPages = computed(() => Math.ceil(allPosts.length / pageSize))
@@ -111,81 +109,54 @@ const paginatedPosts = computed(() => {
 function changePage(page) {
   if (page >= 1 && page <= totalPages.value) {
     currentPage.value = page
-    // 可选：滚动到页面顶部
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }
-// 核心主题设置函数
 
-// 定义更新圆点的函数
+// 主题相关函数
 function updateModeDots(mode) {
-  // 在函数内部获取元素，避免使用外部变量
   const dotNight = document.getElementById('dot-night')
   const dotDay = document.getElementById('dot-day')
   const dotSunny = document.getElementById('dot-sunny')
-
-  // 移除所有圆点的 active 类（使用可选链避免空值报错）
   dotNight?.classList.remove('active')
   dotDay?.classList.remove('active')
   dotSunny?.classList.remove('active')
-
-  // 根据当前模式高亮对应圆点
-  if (mode === 'night') {
-    dotNight?.classList.add('active')
-  } else if (mode === 'day') {
-    dotDay?.classList.add('active')
-  } else if (mode === 'sunny') {
-    dotSunny?.classList.add('active')
-  }
+  if (mode === 'night') dotNight?.classList.add('active')
+  else if (mode === 'day') dotDay?.classList.add('active')
+  else if (mode === 'sunny') dotSunny?.classList.add('active')
 }
+
 function setTheme(mode) {
   const body = document.body
   body.classList.remove('light', 'sunny')
-  if (mode === 'day') {
-    body.classList.add('light')
-  } else if (mode === 'sunny') {
-    body.classList.add('light', 'sunny')
-  }
-  // night 模式不添加任何额外类
+  if (mode === 'day') body.classList.add('light')
+  else if (mode === 'sunny') body.classList.add('light', 'sunny')
   localStorage.setItem('xiaogai-display-mode', mode)
-  updateModeDots(mode)   // 新增：更新圆点高亮
+  updateModeDots(mode)
 }
 
-// 获取当前主题
 function getCurrentTheme() {
   const body = document.body
-  if (body.classList.contains('light') && body.classList.contains('sunny')) {
-    return 'sunny'
-  } else if (body.classList.contains('light')) {
-    return 'day'
-  } else {
-    return 'night'
-  }
+  if (body.classList.contains('light') && body.classList.contains('sunny')) return 'sunny'
+  if (body.classList.contains('light')) return 'day'
+  return 'night'
 }
 
-// 循环切换主题
 function cycleTheme() {
   const themeOrder = ['day', 'sunny', 'night']
   const current = getCurrentTheme()
   const nextIndex = (themeOrder.indexOf(current) + 1) % themeOrder.length
-  const next = themeOrder[nextIndex]
-  setTheme(next)
+  setTheme(themeOrder[nextIndex])
 }
 
-// 初始化主题（从 localStorage 恢复）
 function initTheme() {
   const savedMode = localStorage.getItem('xiaogai-display-mode')
-  if (savedMode === 'day') {
-    document.body.classList.add('light')
-  } else if (savedMode === 'sunny') {
-    document.body.classList.add('light', 'sunny')
-  } else {
-    document.body.classList.remove('light', 'sunny')
-  }
+  if (savedMode === 'day') document.body.classList.add('light')
+  else if (savedMode === 'sunny') document.body.classList.add('light', 'sunny')
+  else document.body.classList.remove('light', 'sunny')
   updateModeDots(savedMode === 'day' ? 'day' : (savedMode === 'sunny' ? 'sunny' : 'night'))
 }
 
-// 键盘快捷键处理
 function handleKeydown(e) {
   const key = e.key.toLowerCase()
   if (key === 'd') setTheme('day')
@@ -197,7 +168,6 @@ onMounted(() => {
   initTheme()
   window.addEventListener('keydown', handleKeydown)
 
-  // 为模式指示器圆点添加点击事件（可选）
   const dotNight = document.getElementById('dot-night')
   const dotDay = document.getElementById('dot-day')
   const dotSunny = document.getElementById('dot-sunny')
@@ -205,7 +175,6 @@ onMounted(() => {
   if (dotDay) dotDay.addEventListener('click', () => setTheme('day'))
   if (dotSunny) dotSunny.addEventListener('click', () => setTheme('sunny'))
 
-  // 背景音频和视频播放（需要用户首次点击）
   const audio = document.getElementById('forest-audio')
   const video = document.getElementById('leaves-overlay')
   if (audio && video) {

@@ -5,22 +5,18 @@
     "moduleResolution": "Bundler",
     "allowJs": true,
     "checkJs": false,
-    "skipLibCheck": true,
     "strict": false,
+    "skipLibCheck": true,
     "esModuleInterop": true,
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0",
-    "paths": {
-      "/*": [
-        "*"
-      ]
-    }
+    "types": [
+      "node"
+    ]
   },
   "include": [
-    ".vitepress/**/*.mts",
     ".vitepress/**/*.ts",
-    ".vitepress/**/*.js",
-    "**/*.md"
+    "**/*.ts",
+    ".vitepress/posts.js",
+    ".vitepress/posts.data.ts"
   ],
   "exclude": [
     "node_modules",
