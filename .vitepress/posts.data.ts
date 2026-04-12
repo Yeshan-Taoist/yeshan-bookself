@@ -9,11 +9,15 @@ export interface Post {
 }
 
 export default createContentLoader('docs/**/*.md', {
+
   transform(raw) {
-    // 过滤掉 index.md 或 README.md 文件（包括任何子目录下的）
+    // 过滤掉 index.md 生成的目录路径（以 / 结尾）以及 README
     const filtered = raw.filter(({ url }) => {
-      // url 格式如 /docs/.../文件名，不含 .md 后缀
-      return !url.endsWith('/index') && !url.endsWith('/README')
+      // 排除目录路径（例如 /docs/分类/）
+      if (url.endsWith('/')) return false
+      // 排除可能的 README 文件
+      if (url.endsWith('/README')) return false
+      return true
     })
 
     const allPosts: Post[] = filtered.map(({ url, frontmatter }) => ({

@@ -10,16 +10,20 @@ export const sidebar = [
         "collapsed": true,
         "items": [
           {
+            "text": "经部",
+            "link": "/docs/A-传统文学/AA-经部/"
+          },
+          {
             "text": "诗经类",
             "collapsed": true,
             "items": [
               {
-                "text": "诗经",
-                "link": "/docs/A-传统文学/AA-经部/AAA-五经-诗经类/AAAA-《诗经》"
+                "text": "诗类",
+                "link": "/docs/A-传统文学/AA-经部/AAA-五经-诗经类/"
               },
               {
-                "text": "诗类",
-                "link": "/docs/A-传统文学/AA-经部/AAA-五经-诗经类/index"
+                "text": "诗经",
+                "link": "/docs/A-传统文学/AA-经部/AAA-五经-诗经类/AAAA-《诗经》"
               }
             ]
           },
@@ -29,7 +33,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "尚书类",
-                "link": "/docs/A-传统文学/AA-经部/AAB-五经-尚书类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAB-五经-尚书类/"
               }
             ]
           },
@@ -39,7 +43,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "三礼类",
-                "link": "/docs/A-传统文学/AA-经部/AAC-五经-三礼类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAC-五经-三礼类/"
               }
             ]
           },
@@ -49,7 +53,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "易经类",
-                "link": "/docs/A-传统文学/AA-经部/AAD-五经-易经类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAD-五经-易经类/"
               }
             ]
           },
@@ -59,7 +63,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "春秋类",
-                "link": "/docs/A-传统文学/AA-经部/AAE-五经-春秋类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAE-五经-春秋类/"
               }
             ]
           },
@@ -69,7 +73,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "四书类",
-                "link": "/docs/A-传统文学/AA-经部/AAF-四书类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAF-四书类/"
               }
             ]
           },
@@ -79,7 +83,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "孝经类",
-                "link": "/docs/A-传统文学/AA-经部/AAG-孝经类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAG-孝经类/"
               }
             ]
           },
@@ -89,7 +93,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "五经总义类",
-                "link": "/docs/A-传统文学/AA-经部/AAH-五经总义类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAH-五经总义类/"
               }
             ]
           },
@@ -99,7 +103,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "乐类",
-                "link": "/docs/A-传统文学/AA-经部/AAI-乐类/index"
+                "link": "/docs/A-传统文学/AA-经部/AAI-乐类/"
               }
             ]
           },
@@ -107,6 +111,10 @@ export const sidebar = [
             "text": "小学类",
             "collapsed": true,
             "items": [
+              {
+                "text": "小学类",
+                "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/"
+              },
               {
                 "text": "三字经",
                 "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/AAJA-《三字经》"
@@ -118,16 +126,8 @@ export const sidebar = [
               {
                 "text": "千字文",
                 "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/AAJC-《千字文》"
-              },
-              {
-                "text": "小学类",
-                "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/index"
               }
             ]
-          },
-          {
-            "text": "经部",
-            "link": "/docs/A-传统文学/AA-经部/index"
           }
         ]
       },
@@ -136,12 +136,16 @@ export const sidebar = [
         "collapsed": true,
         "items": [
           {
+            "text": "史部",
+            "link": "/docs/A-传统文学/AB-史部/"
+          },
+          {
             "text": "纪传类",
             "collapsed": true,
             "items": [
               {
                 "text": "纪传类",
-                "link": "/docs/A-传统文学/AB-史部/ABA-纪传类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABA-纪传类/"
               }
             ]
           },
@@ -151,7 +155,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "编年类",
-                "link": "/docs/A-传统文学/AB-史部/ABB-编年类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABB-编年类/"
               }
             ]
           },
@@ -161,7 +165,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "纪事本末类",
-                "link": "/docs/A-传统文学/AB-史部/ABC-纪事本末类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABC-纪事本末类/"
               }
             ]
           },
@@ -171,7 +175,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "别史类",
-                "link": "/docs/A-传统文学/AB-史部/ABD-别史类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABD-别史类/"
               }
             ]
           },
@@ -181,7 +185,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "杂史类",
-                "link": "/docs/A-传统文学/AB-史部/ABE-杂史类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABE-杂史类/"
               }
             ]
           },
@@ -191,7 +195,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "诏令奏议类",
-                "link": "/docs/A-传统文学/AB-史部/ABF-诏令奏议类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABF-诏令奏议类/"
               }
             ]
           },
@@ -201,7 +205,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "传记类",
-                "link": "/docs/A-传统文学/AB-史部/ABG-传记类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABG-传记类/"
               }
             ]
           },
@@ -211,7 +215,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "史钞类",
-                "link": "/docs/A-传统文学/AB-史部/ABH-史钞类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABH-史钞类/"
               }
             ]
           },
@@ -221,7 +225,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "史评类",
-                "link": "/docs/A-传统文学/AB-史部/ABI-史评类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABI-史评类/"
               }
             ]
           },
@@ -231,7 +235,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "载记类",
-                "link": "/docs/A-传统文学/AB-史部/ABJ-载记类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABJ-载记类/"
               }
             ]
           },
@@ -241,7 +245,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "职官类",
-                "link": "/docs/A-传统文学/AB-史部/ABK-职官类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABK-职官类/"
               }
             ]
           },
@@ -251,7 +255,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "政书类",
-                "link": "/docs/A-传统文学/AB-史部/ABL-政书类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABL-政书类/"
               }
             ]
           },
@@ -261,7 +265,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "地理类",
-                "link": "/docs/A-传统文学/AB-史部/ABM-地理类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABM-地理类/"
               }
             ]
           },
@@ -271,13 +275,9 @@ export const sidebar = [
             "items": [
               {
                 "text": "时令类",
-                "link": "/docs/A-传统文学/AB-史部/ABN-时令类/index"
+                "link": "/docs/A-传统文学/AB-史部/ABN-时令类/"
               }
             ]
-          },
-          {
-            "text": "史部",
-            "link": "/docs/A-传统文学/AB-史部/index"
           }
         ]
       },
@@ -286,16 +286,20 @@ export const sidebar = [
         "collapsed": true,
         "items": [
           {
+            "text": "子部",
+            "link": "/docs/A-传统文学/AC-子部/"
+          },
+          {
             "text": "儒家类",
             "collapsed": true,
             "items": [
               {
-                "text": "弟子规",
-                "link": "/docs/A-传统文学/AC-子部/ACA-儒家类/ACAA-《弟子规》"
+                "text": "儒家类",
+                "link": "/docs/A-传统文学/AC-子部/ACA-儒家类/"
               },
               {
-                "text": "儒家类",
-                "link": "/docs/A-传统文学/AC-子部/ACA-儒家类/index"
+                "text": "弟子规",
+                "link": "/docs/A-传统文学/AC-子部/ACA-儒家类/ACAA-《弟子规》"
               }
             ]
           },
@@ -305,7 +309,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "小说家类",
-                "link": "/docs/A-传统文学/AC-子部/ACB-小说家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACB-小说家类/"
               }
             ]
           },
@@ -315,7 +319,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "医家类",
-                "link": "/docs/A-传统文学/AC-子部/ACC-医家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACC-医家类/"
               }
             ]
           },
@@ -325,7 +329,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "道家类",
-                "link": "/docs/A-传统文学/AC-子部/ACD-道家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACD-道家类/"
               }
             ]
           },
@@ -335,7 +339,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "术数类",
-                "link": "/docs/A-传统文学/AC-子部/ACE-术数类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACE-术数类/"
               }
             ]
           },
@@ -345,7 +349,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "天文算法类",
-                "link": "/docs/A-传统文学/AC-子部/ACF-天文算法类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACF-天文算法类/"
               }
             ]
           },
@@ -355,7 +359,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "艺术类",
-                "link": "/docs/A-传统文学/AC-子部/ACG-艺术类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACG-艺术类/"
               }
             ]
           },
@@ -365,7 +369,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "谱录类",
-                "link": "/docs/A-传统文学/AC-子部/ACH-谱录类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACH-谱录类/"
               }
             ]
           },
@@ -375,7 +379,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "类书类",
-                "link": "/docs/A-传统文学/AC-子部/ACI-类书类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACI-类书类/"
               }
             ]
           },
@@ -385,7 +389,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "杂家类",
-                "link": "/docs/A-传统文学/AC-子部/ACJ-杂家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACJ-杂家类/"
               }
             ]
           },
@@ -395,7 +399,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "兵家类",
-                "link": "/docs/A-传统文学/AC-子部/ACK-兵家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACK-兵家类/"
               }
             ]
           },
@@ -405,7 +409,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "法家类",
-                "link": "/docs/A-传统文学/AC-子部/ACL-法家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACL-法家类/"
               }
             ]
           },
@@ -415,7 +419,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "农家类",
-                "link": "/docs/A-传统文学/AC-子部/ACM-农家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACM-农家类/"
               }
             ]
           },
@@ -425,13 +429,9 @@ export const sidebar = [
             "items": [
               {
                 "text": "释家类",
-                "link": "/docs/A-传统文学/AC-子部/ACN-释家类/index"
+                "link": "/docs/A-传统文学/AC-子部/ACN-释家类/"
               }
             ]
-          },
-          {
-            "text": "子部",
-            "link": "/docs/A-传统文学/AC-子部/index"
           }
         ]
       },
@@ -440,12 +440,16 @@ export const sidebar = [
         "collapsed": true,
         "items": [
           {
+            "text": "集部",
+            "link": "/docs/A-传统文学/AD-集部/"
+          },
+          {
             "text": "楚辞类",
             "collapsed": true,
             "items": [
               {
                 "text": "楚辞类",
-                "link": "/docs/A-传统文学/AD-集部/ADA-楚辞类/index"
+                "link": "/docs/A-传统文学/AD-集部/ADA-楚辞类/"
               }
             ]
           },
@@ -455,7 +459,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "别集类",
-                "link": "/docs/A-传统文学/AD-集部/ADB-别集类/index"
+                "link": "/docs/A-传统文学/AD-集部/ADB-别集类/"
               }
             ]
           },
@@ -464,12 +468,12 @@ export const sidebar = [
             "collapsed": true,
             "items": [
               {
-                "text": "千家诗",
-                "link": "/docs/A-传统文学/AD-集部/ADC-总集类/ADCA-《千家诗》"
+                "text": "总集类",
+                "link": "/docs/A-传统文学/AD-集部/ADC-总集类/"
               },
               {
-                "text": "总集类",
-                "link": "/docs/A-传统文学/AD-集部/ADC-总集类/index"
+                "text": "千家诗",
+                "link": "/docs/A-传统文学/AD-集部/ADC-总集类/ADCA-《千家诗》"
               }
             ]
           },
@@ -479,7 +483,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "诗文评类",
-                "link": "/docs/A-传统文学/AD-集部/ADD-诗文评类/index"
+                "link": "/docs/A-传统文学/AD-集部/ADD-诗文评类/"
               }
             ]
           },
@@ -489,7 +493,7 @@ export const sidebar = [
             "items": [
               {
                 "text": "词类",
-                "link": "/docs/A-传统文学/AD-集部/ADE-词类/index"
+                "link": "/docs/A-传统文学/AD-集部/ADE-词类/"
               }
             ]
           },
@@ -499,23 +503,19 @@ export const sidebar = [
             "items": [
               {
                 "text": "曲类",
-                "link": "/docs/A-传统文学/AD-集部/ADF-曲类/index"
+                "link": "/docs/A-传统文学/AD-集部/ADF-曲类/"
               }
             ]
-          },
-          {
-            "text": "集部",
-            "link": "/docs/A-传统文学/AD-集部/index"
           }
         ]
       },
       {
-        "text": "杂类",
+        "text": "杂部",
         "collapsed": true,
         "items": [
           {
             "text": "杂部序",
-            "link": "/docs/A-传统文学/AE-杂类/index"
+            "link": "/docs/A-传统文学/AE-杂部/"
           }
         ]
       }
@@ -529,6 +529,10 @@ export const sidebar = [
         "text": "网络小说",
         "collapsed": true,
         "items": [
+          {
+            "text": "凡人修仙传序",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传"
+          },
           {
             "text": "时间线",
             "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传/BAAA-时间线"
@@ -544,10 +548,6 @@ export const sidebar = [
           {
             "text": "设定",
             "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传/BAAD-设定"
-          },
-          {
-            "text": "凡人修仙传序",
-            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传"
           }
         ]
       },
