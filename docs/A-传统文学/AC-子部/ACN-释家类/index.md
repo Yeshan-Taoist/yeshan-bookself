@@ -1,0 +1,15 @@
+---
+layout: ArticleLayout
+navbar: false
+title: 释家类
+category: 释家类
+date: 2026-03-21
+---
+
+## 序言
+
+- **内容：**
+  - 佛教经典和论著。
+
+- **代表典籍：**
+  - 无

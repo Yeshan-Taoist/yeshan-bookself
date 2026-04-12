@@ -1,7 +1,7 @@
-import { defineConfig } from 'vitepress'
+// .vitepress/config.ts
+import { sidebar } from './sidebar'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default {
   lang: "zh-CN",
   base: '/',
   title: "笔由随心",
@@ -9,7 +9,8 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>' }]
   ],
-  appearance: false,   // 禁用默认的暗色模式切换按钮和自动类名
+  appearance: false,
   themeConfig: {
+    sidebar
   }
-})
+}

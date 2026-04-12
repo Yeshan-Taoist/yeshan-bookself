@@ -1,10 +1,10 @@
 ---
+layout: ArticleLayout
+navbar: false
 title: 百家姓
 category: 小学类
 date: 2026-03-21
 ---
-
-# 《百家姓》
 
 ## 序言
 

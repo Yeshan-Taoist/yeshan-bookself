@@ -16,11 +16,13 @@
     ".vitepress/**/*.ts",
     "**/*.ts",
     ".vitepress/posts.js",
-    ".vitepress/posts.data.ts"
+    ".vitepress/posts.data.ts",
+    ".vitepress/sidebar.ts"
   ],
   "exclude": [
     "node_modules",
     ".vitepress/cache",
-    ".vitepress/dist"
+    ".vitepress/dist",
+    ".vitepress/sidebar.ts"
   ]
 }

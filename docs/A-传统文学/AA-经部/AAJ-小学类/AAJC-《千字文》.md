@@ -1,10 +1,10 @@
 ---
+layout: ArticleLayout
+navbar: false
 title: 千字文
 category: 小学类
 date: 2026-03-21
 ---
-
-# 《千字文》
 
 ## 序言
 

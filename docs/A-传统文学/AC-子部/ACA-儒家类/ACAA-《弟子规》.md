@@ -1,10 +1,10 @@
 ---
+layout: ArticleLayout
+navbar: false
 title: 弟子规
 category: 儒家类
-date: 2026-03-21
+date: 2026-03-22
 ---
-
-# 《弟子规》
 
 ## 序言
 

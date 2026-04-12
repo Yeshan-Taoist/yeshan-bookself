@@ -1,10 +1,10 @@
 ---
+layout: ArticleLayout
+navbar: false
 title: 千家诗
 category: 总集类
 date: 2026-03-21
 ---
-
-# 《千家诗》
 
 ## 序言
 

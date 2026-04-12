@@ -1,10 +1,10 @@
 ---
+layout: ArticleLayout
+navbar: false
 title: 三字经
 category: 小学类
 date: 2026-03-21
 ---
-
-# 《三字经》
 
 ## 序言
 
