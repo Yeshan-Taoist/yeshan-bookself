@@ -1,29 +1,203 @@
 {
-  "hash": "c85e28bf",
+  "hash": "7d794f56",
   "configHash": "e7eb75f1",
-  "lockfileHash": "5ca0e907",
-  "browserHash": "3b9d9863",
+  "lockfileHash": "ad9bc530",
+  "browserHash": "113f703a",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "0119a2f5",
+      "fileHash": "40ee9414",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "baf27f5a",
+      "fileHash": "ea7816f1",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/dist/index.js",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "d84abbb8",
+      "fileHash": "6cab021c",
+      "needsInterop": false
+    },
+    "vitepress-plugin-legend/component": {
+      "src": "../../../node_modules/vitepress-plugin-legend/dist/component.js",
+      "file": "vitepress-plugin-legend_component.js",
+      "fileHash": "e70d3366",
       "needsInterop": false
     }
   },
   "chunks": {
+    "sankeyDiagram-4UZDY2LN-CnAdwvcC-BatxmGIy-N6Y3DAB5": {
+      "file": "sankeyDiagram-4UZDY2LN-CnAdwvcC-BatxmGIy-N6Y3DAB5.js"
+    },
+    "diagram-5UYTHUR4-Ts8DWvW8-D2JXxSxk-O4IZVUIT": {
+      "file": "diagram-5UYTHUR4-Ts8DWvW8-D2JXxSxk-O4IZVUIT.js"
+    },
+    "diagram-ZTM2IBQH-C32oQvHK-Bgp2hPVE-IZ6NGIDX": {
+      "file": "diagram-ZTM2IBQH-C32oQvHK-Bgp2hPVE-IZ6NGIDX.js"
+    },
+    "blockDiagram-6J76NXCF-CKU6xA4s-ur9z755R-XP4XVR7U": {
+      "file": "blockDiagram-6J76NXCF-CKU6xA4s-ur9z755R-XP4XVR7U.js"
+    },
+    "architectureDiagram-SUXI7LT5-MkMpV-jr-C80n97YT-G5POSWPE": {
+      "file": "architectureDiagram-SUXI7LT5-MkMpV-jr-C80n97YT-G5POSWPE.js"
+    },
+    "diagram-VMROVX33-BbEyrapg-DjANsv4p-H3BW6TFZ": {
+      "file": "diagram-VMROVX33-BbEyrapg-DjANsv4p-H3BW6TFZ.js"
+    },
+    "classDiagram-M3E45YP4-DwgdiJrV-BG_jMFgg-ILFBEQKF": {
+      "file": "classDiagram-M3E45YP4-DwgdiJrV-BG_jMFgg-ILFBEQKF.js"
+    },
+    "classDiagram-v2-YAWTLIQI-DwgdiJrV-BG_jMFgg-ULJD2V3X": {
+      "file": "classDiagram-v2-YAWTLIQI-DwgdiJrV-BG_jMFgg-ULJD2V3X.js"
+    },
+    "chunk-ZNSERBBZ": {
+      "file": "chunk-ZNSERBBZ.js"
+    },
+    "stateDiagram-MI5ZYTHO-DUpd8xBQ-BpMWAYEV-772GAHXS": {
+      "file": "stateDiagram-MI5ZYTHO-DUpd8xBQ-BpMWAYEV-772GAHXS.js"
+    },
+    "stateDiagram-v2-5AN5P6BG-DnT098Gs-BVoBsHLw-IJIFKI3J": {
+      "file": "stateDiagram-v2-5AN5P6BG-DnT098Gs-BVoBsHLw-IJIFKI3J.js"
+    },
+    "chunk-J6GKK7P3": {
+      "file": "chunk-J6GKK7P3.js"
+    },
+    "journeyDiagram-EWQZEKCU-DqZ5Gtod-BUG_phdH-RVYPVK4F": {
+      "file": "journeyDiagram-EWQZEKCU-DqZ5Gtod-BUG_phdH-RVYPVK4F.js"
+    },
+    "timeline-definition-MYPXXCX6-CsN-ivIZ-xN59xmOJ-5NIKWPMR": {
+      "file": "timeline-definition-MYPXXCX6-CsN-ivIZ-xN59xmOJ-5NIKWPMR.js"
+    },
+    "mindmap-definition-6CBA2TL7-Cbhri6JR-BEWJe9qx-MUOURZDJ": {
+      "file": "mindmap-definition-6CBA2TL7-Cbhri6JR-BEWJe9qx-MUOURZDJ.js"
+    },
+    "chunk-OFSAIBSR": {
+      "file": "chunk-OFSAIBSR.js"
+    },
+    "kanban-definition-ZSS6B67P-CUcTB5vL-_rc-5uv9-V4EFNRYH": {
+      "file": "kanban-definition-ZSS6B67P-CUcTB5vL-_rc-5uv9-V4EFNRYH.js"
+    },
+    "gitGraphDiagram-GW3U2K7C-LbRyzza8-Dn3A5zNS-LPHCFYIZ": {
+      "file": "gitGraphDiagram-GW3U2K7C-LbRyzza8-Dn3A5zNS-LPHCFYIZ.js"
+    },
+    "ganttDiagram-EK5VF46D-Bly8WreB-BoVuaRZP-RL4TPJBN": {
+      "file": "ganttDiagram-EK5VF46D-Bly8WreB-BoVuaRZP-RL4TPJBN.js"
+    },
+    "infoDiagram-LHK5PUON-CSaYolw3-njaV2Dhd-4HUPSOOQ": {
+      "file": "infoDiagram-LHK5PUON-CSaYolw3-njaV2Dhd-4HUPSOOQ.js"
+    },
+    "pieDiagram-NIOCPIFQ-B6XSd-nA-gISM_bIs-NQFVB2T2": {
+      "file": "pieDiagram-NIOCPIFQ-B6XSd-nA-gISM_bIs-NQFVB2T2.js"
+    },
+    "chunk-PPZF44FK": {
+      "file": "chunk-PPZF44FK.js"
+    },
+    "chunk-N2N7BGHS": {
+      "file": "chunk-N2N7BGHS.js"
+    },
+    "quadrantDiagram-2OG54O6I-exVKgMW--C1YWXJXP-FOJXYUNA": {
+      "file": "quadrantDiagram-2OG54O6I-exVKgMW--C1YWXJXP-FOJXYUNA.js"
+    },
+    "xychartDiagram-H2YORKM3-RGV0rR_j-U-9N_K4e-CXIU4AOA": {
+      "file": "xychartDiagram-H2YORKM3-RGV0rR_j-U-9N_K4e-CXIU4AOA.js"
+    },
+    "chunk-FYAW533G": {
+      "file": "chunk-FYAW533G.js"
+    },
+    "chunk-Y6NSAI5X": {
+      "file": "chunk-Y6NSAI5X.js"
+    },
+    "chunk-UMZLSG66": {
+      "file": "chunk-UMZLSG66.js"
+    },
+    "chunk-STLHGINV": {
+      "file": "chunk-STLHGINV.js"
+    },
+    "requirementDiagram-QOLK2EJ7-6dWmHEAc-DQOVDnvK-ALESHIBF": {
+      "file": "requirementDiagram-QOLK2EJ7-6dWmHEAc-DQOVDnvK-ALESHIBF.js"
+    },
+    "sequenceDiagram-SKLFT4DO-CFhuQylM-BtxjauGS-THUXO3M2": {
+      "file": "sequenceDiagram-SKLFT4DO-CFhuQylM-BtxjauGS-THUXO3M2.js"
+    },
+    "chunk-3MJ6XLIQ": {
+      "file": "chunk-3MJ6XLIQ.js"
+    },
+    "erDiagram-3M52JZNH-Br8ppgaz-0foBaHS8-DBAZ3HW4": {
+      "file": "erDiagram-3M52JZNH-Br8ppgaz-0foBaHS8-DBAZ3HW4.js"
+    },
+    "info-63CPKGFF-DZeTg6Sj-2H-Js7bO-DBQHYNSD": {
+      "file": "info-63CPKGFF-DZeTg6Sj-2H-Js7bO-DBQHYNSD.js"
+    },
+    "packet-HUATNLJX-98_D1O5E-lCMid0MW-YU5RVGUK": {
+      "file": "packet-HUATNLJX-98_D1O5E-lCMid0MW-YU5RVGUK.js"
+    },
+    "pie-WTHONI2E-D337kPVJ-uvMJ4q_7-BHF2FSIW": {
+      "file": "pie-WTHONI2E-D337kPVJ-uvMJ4q_7-BHF2FSIW.js"
+    },
+    "architecture-O4VJ6CD3-cxLk0nJU-YfeZhH_I-7QRO6ZFT": {
+      "file": "architecture-O4VJ6CD3-cxLk0nJU-YfeZhH_I-7QRO6ZFT.js"
+    },
+    "gitGraph-ZV4HHKMB-CLarli0n-CzbwP12_-RPAK22EF": {
+      "file": "gitGraph-ZV4HHKMB-CLarli0n-CzbwP12_-RPAK22EF.js"
+    },
+    "radar-NJJJXTRR-CqNCNvUs-W0OxF_C--UDBCUSIO": {
+      "file": "radar-NJJJXTRR-CqNCNvUs-W0OxF_C--UDBCUSIO.js"
+    },
+    "treemap-75Q7IDZK-CjtfQE8u-CpNGz5UP-2NZZ5UMX": {
+      "file": "treemap-75Q7IDZK-CjtfQE8u-CpNGz5UP-2NZZ5UMX.js"
+    },
+    "chunk-SGMUMMDM": {
+      "file": "chunk-SGMUMMDM.js"
+    },
+    "katex-CUSbq6rG-DCyV1FlS-CLJ2KC3W": {
+      "file": "katex-CUSbq6rG-DCyV1FlS-CLJ2KC3W.js"
+    },
+    "dagre-JOIXM2OF-HUv6-TmE-DgS1eeZT-VZ46Q34T": {
+      "file": "dagre-JOIXM2OF-HUv6-TmE-DgS1eeZT-VZ46Q34T.js"
+    },
+    "chunk-BIWCY3FE": {
+      "file": "chunk-BIWCY3FE.js"
+    },
+    "chunk-QDHDAQB6": {
+      "file": "chunk-QDHDAQB6.js"
+    },
+    "chunk-3TDT3HWZ": {
+      "file": "chunk-3TDT3HWZ.js"
+    },
+    "chunk-STDC4IMW": {
+      "file": "chunk-STDC4IMW.js"
+    },
+    "chunk-W3ZJYFUP": {
+      "file": "chunk-W3ZJYFUP.js"
+    },
+    "c4Diagram-6F6E4RAY-vK5l5Ihs-VK7PKCQ5-DDSC6QAO": {
+      "file": "c4Diagram-6F6E4RAY-vK5l5Ihs-VK7PKCQ5-DDSC6QAO.js"
+    },
+    "chunk-P2CPQTRD": {
+      "file": "chunk-P2CPQTRD.js"
+    },
+    "flowDiagram-KYDEHFYC-DVhYU71X-DIECweZO-ALMNFRC6": {
+      "file": "flowDiagram-KYDEHFYC-DVhYU71X-DIECweZO-ALMNFRC6.js"
+    },
+    "chunk-5VACMTRK": {
+      "file": "chunk-5VACMTRK.js"
+    },
+    "chunk-NIZIK3MC": {
+      "file": "chunk-NIZIK3MC.js"
+    },
+    "chunk-BXWTBNHE": {
+      "file": "chunk-BXWTBNHE.js"
+    },
+    "chunk-EYPLDYDM": {
+      "file": "chunk-EYPLDYDM.js"
+    },
+    "chunk-3UODNKBR": {
+      "file": "chunk-3UODNKBR.js"
+    },
     "chunk-CIQQ7TXU": {
       "file": "chunk-CIQQ7TXU.js"
     }

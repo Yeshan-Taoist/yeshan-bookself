@@ -1,5 +1,6 @@
 // .vitepress/config.ts
 import { sidebar } from './sidebar'
+import { vitepressPluginLegend } from 'vitepress-plugin-legend'
 
 export default {
   lang: "zh-CN",
@@ -11,7 +12,23 @@ export default {
   ],
   appearance: false,
   themeConfig: {
-    outline: false,   // 禁用所有页面的右侧目录
+    outline: false,
     sidebar
-  }
+  },
+  // 关键：通过 markdown 配置启用插件
+  markdown: {
+    config(md) {
+      vitepressPluginLegend(md, {
+        markmap: {
+          showToolbar: true,
+          // 其他 markmap 选项
+        },
+        mermaid: false, // 或 false 禁用
+        infographic: {
+          showToolbar: false,
+          // 其他 infographic 选项
+        },
+      });
+    },
+  },
 }

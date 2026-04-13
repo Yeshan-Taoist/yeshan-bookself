@@ -22,7 +22,7 @@ export const sidebar = [
                 "link": "/docs/A-传统文学/AA-经部/AAA-五经-诗经类/"
               },
               {
-                "text": "诗经",
+                "text": "《诗经》",
                 "link": "/docs/A-传统文学/AA-经部/AAA-五经-诗经类/AAAA-《诗经》"
               }
             ]
@@ -116,15 +116,15 @@ export const sidebar = [
                 "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/"
               },
               {
-                "text": "三字经",
+                "text": "《三字经》",
                 "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/AAJA-《三字经》"
               },
               {
-                "text": "百家姓",
+                "text": "《百家姓》",
                 "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/AAJB-《百家姓》"
               },
               {
-                "text": "千字文",
+                "text": "《千字文》",
                 "link": "/docs/A-传统文学/AA-经部/AAJ-小学类/AAJC-《千字文》"
               }
             ]
@@ -298,7 +298,7 @@ export const sidebar = [
                 "link": "/docs/A-传统文学/AC-子部/ACA-儒家类/"
               },
               {
-                "text": "弟子规",
+                "text": "《弟子规》",
                 "link": "/docs/A-传统文学/AC-子部/ACA-儒家类/ACAA-《弟子规》"
               }
             ]
@@ -472,7 +472,7 @@ export const sidebar = [
                 "link": "/docs/A-传统文学/AD-集部/ADC-总集类/"
               },
               {
-                "text": "千家诗",
+                "text": "《千家诗》",
                 "link": "/docs/A-传统文学/AD-集部/ADC-总集类/ADCA-《千家诗》"
               }
             ]
@@ -530,24 +530,8 @@ export const sidebar = [
         "collapsed": true,
         "items": [
           {
-            "text": "凡人修仙传序",
+            "text": "《凡人修仙传》",
             "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传"
-          },
-          {
-            "text": "时间线",
-            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传/BAAA-时间线"
-          },
-          {
-            "text": "地理",
-            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传/BAAB-地理"
-          },
-          {
-            "text": "人物关系",
-            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传/BAAC-人物关系"
-          },
-          {
-            "text": "设定",
-            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传/BAAD-设定"
           }
         ]
       },

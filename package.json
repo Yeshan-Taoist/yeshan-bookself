@@ -9,5 +9,8 @@
     "docs:dev": "npm run generate:sidebar && vitepress dev",
     "docs:build": "npm run generate:sidebar && vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress-plugin-legend": "^1.4.2"
   }
 }

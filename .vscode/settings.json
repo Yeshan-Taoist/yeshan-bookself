@@ -1,0 +1,12 @@
+{
+  "[snippets]": {
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "markdownTablePrettify.columnPadding": 1,
+  "markdownTablePrettify.extendedLanguages": []
+}

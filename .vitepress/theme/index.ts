@@ -5,6 +5,8 @@ import HomePage from './components/HomePage.vue'
 import ArticleLayout from './layouts/ArticleLayout.vue'
 import Layout from './layouts/Layout.vue'          // 导入自定义布局
 import './style.css'
+import { initComponent } from 'vitepress-plugin-legend/component'
+import 'vitepress-plugin-legend/dist/index.css'
 
 export default {
   extends: DefaultTheme,
@@ -12,5 +14,6 @@ export default {
   enhanceApp({ app }) {
     app.component('HomePage', HomePage)
     app.component('ArticleLayout', ArticleLayout)
+    initComponent(app)
   },
 } satisfies Theme
