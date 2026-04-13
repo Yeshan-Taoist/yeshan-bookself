@@ -558,14 +558,28 @@ body.VPLocalNav {
   border-bottom-color: var(--line) !important;
 }
 
-/* body.light .VPSidebar .text,
-body.sunny .VPSidebar .text {
-  color: var(--text);
-} */
+/* 隐藏侧边栏（.VPSidebar）的滚动条 */
+.VPSidebar {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE/Edge */
+}
+
+.VPSidebar::-webkit-scrollbar {
+  display: none;
+  /* Chrome/Safari/Opera */
+}
+
 
 body.light .VPSidebar .caret-icon,
 body.sunny .VPSidebar .caret-icon {
   color: var(--mid);
+}
+
+body.light .VPSidebar .caret-icon:hover,
+body.sunny .VPSidebar .caret-icon:hover {
+  color: var(--accent);
 }
 
 body.light .VPSidebar .link:hover .text,
