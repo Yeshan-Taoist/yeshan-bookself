@@ -131,7 +131,7 @@ function setTheme(mode) {
   body.classList.remove('light', 'sunny')
   if (mode === 'day') body.classList.add('light')
   else if (mode === 'sunny') body.classList.add('light', 'sunny')
-  localStorage.setItem('xiaogai-display-mode', mode)
+  localStorage.setItem('bookself-display-mode', mode)
   updateModeDots(mode)
 }
 
@@ -150,7 +150,7 @@ function cycleTheme() {
 }
 
 function initTheme() {
-  const savedMode = localStorage.getItem('xiaogai-display-mode')
+  const savedMode = localStorage.getItem('bookself-display-mode')
   if (savedMode === 'day') document.body.classList.add('light')
   else if (savedMode === 'sunny') document.body.classList.add('light', 'sunny')
   else document.body.classList.remove('light', 'sunny')
