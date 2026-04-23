@@ -569,7 +569,18 @@ export const sidebar = [
       {
         "text": "杂",
         "collapsed": true,
-        "items": []
+        "items": [
+          {
+            "text": "小说创作",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "《凡人修仙传同人》",
+                "link": "/docs/C-私人小记/CE-杂/CEA-小说创作/CEAA-凡人修仙传同人"
+              }
+            ]
+          }
+        ]
       }
     ]
   }

@@ -2,5 +2,14 @@
 node_modules
 
 # docs
-docs/.vitepress/dist
-docs/.vitepress/cache
+docs/C-私人小记/CE-杂/CEA-小说创作/CEAA-凡人修仙传同人.md
+
+# .vitepress
+.vitepress/dist
+.vitepress/cache
+
+# uploadsrc
+uploadsrc
+
+# .vscode
+.vscode
