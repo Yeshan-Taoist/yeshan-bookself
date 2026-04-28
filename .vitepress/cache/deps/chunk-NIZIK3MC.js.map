@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../node_modules/vitepress-plugin-legend/dist/channel-CYBQPlIk-kxdvYmy-.js"],
-  "sourcesContent": ["import { a$ as r, b0 as t } from \"./component-CBlllJmJ.js\";\nconst e = (a, o) => r.lang.round(t.parse(a)[o]);\nexport {\n  e as t\n};\n"],
-  "mappings": ";;;;;;AACA,IAAM,IAAI,CAAC,GAAG,MAAM,GAAE,KAAK,MAAM,GAAE,MAAM,CAAC,EAAE,CAAC,CAAC;",
-  "names": []
-}

@@ -12,11 +12,11 @@ export default createContentLoader('docs/**/*.md', {
   transform(raw) {
     // 过滤掉不需要的文章
     const filtered = raw.filter(({ url }) => {
-      // 忽略 docs/public 目录下的所有文件
+      // 排除 docs/public 目录下的所有文件
       if (url.startsWith('/docs/public/')) return false
       // 排除目录路径（例如 /docs/分类/）
       if (url.endsWith('/')) return false
-      // 排除可能的 README 文件
+      // 排除 README 等
       if (url.endsWith('/README')) return false
       return true
     })

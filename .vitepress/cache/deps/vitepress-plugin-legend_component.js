@@ -3,8 +3,9 @@ import {
   dMt,
   iie,
   zne
-} from "./chunk-3UODNKBR.js";
+} from "./chunk-URKYRS2F.js";
 import "./chunk-CIQQ7TXU.js";
+import "./chunk-G3PMV62Z.js";
 export {
   iie as initComponent,
   zne as initInfographicComponent,
