@@ -3,7 +3,7 @@ layout: ArticleLayout
 navbar: false
 title: 《千家诗》
 summary: 这是一部精选了唐、宋两代名家诗作的诗歌选集，按诗体（如五绝、七绝、五律、七律）编排。
-date: 2026-03-21
+date: 2026年04月28日08:32
 ---
 
 ## 序言
