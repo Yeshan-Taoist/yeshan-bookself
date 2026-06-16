@@ -575,7 +575,7 @@ export const sidebar = [
             "collapsed": true,
             "items": [
               {
-                "text": "《凡人修仙传同人》",
+                "text": "《凡人：太白传奇》",
                 "link": "/docs/C-私人小记/CE-杂/CEA-小说创作/CEAA-凡人修仙传同人"
               }
             ]

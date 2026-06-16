@@ -7,4 +7,14 @@
   "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
   "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
+  "editor.wrapOnEscapedLineFeeds": false,
+  "editor.wrappingStrategy": "advanced",
+  "[plaintext]": {
+    "editor.wrappingIndent": "none",
+    "editor.autoIndent": "none",
+    "editor.wordWrap": "bounded"
+  },
+  "js/ts.tsserver.maxMemory": 4096,
 }
