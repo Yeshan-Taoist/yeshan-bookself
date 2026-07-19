@@ -12,9 +12,6 @@
     <!-- 右上角导航栏 -->
     <div class="mode-indicator">
       <a class="subtle-link mode-link" target="_blank" href="https://blog.yeshan-taoist.cn/">我的博客</a>
-      <div class="mode-dot" id="dot-night"></div>
-      <div class="mode-dot" id="dot-day"></div>
-      <div class="mode-dot" id="dot-sunny"></div>
     </div>
 
     <main class="page">
@@ -79,9 +76,7 @@
       </section>
     </main>
 
-    <div class="shortcuts-hint">
-      <kbd>D</kbd> day &nbsp; <kbd>N</kbd> night &nbsp; <kbd>S</kbd> sunny
-    </div>
+
   </div>
 </template>
 

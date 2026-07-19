@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 道家类
 category: 道家类
 date: 2026-03-21

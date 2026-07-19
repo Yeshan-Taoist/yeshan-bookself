@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 春秋类
 category: 春秋类
 date: 2026-03-21

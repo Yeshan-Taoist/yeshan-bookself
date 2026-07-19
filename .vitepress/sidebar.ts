@@ -530,8 +530,16 @@ export const sidebar = [
         "collapsed": true,
         "items": [
           {
-            "text": "《凡人修仙传》",
-            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人修仙传"
+            "text": "凡人之时间线",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAA-凡人之时间线"
+          },
+          {
+            "text": "凡人之设定",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAB-凡人之设定"
+          },
+          {
+            "text": "凡人之人物",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAC-凡人之人物"
           }
         ]
       },

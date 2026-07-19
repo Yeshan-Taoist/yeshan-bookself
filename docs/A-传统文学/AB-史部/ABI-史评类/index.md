@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 史评类
 category: 史评类
 date: 2026-03-21

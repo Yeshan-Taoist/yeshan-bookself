@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 史部
 category: 史部
 date: 2026-03-21

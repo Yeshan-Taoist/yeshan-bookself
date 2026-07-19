@@ -1,12 +1,8 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 传记类
 category: 传记类
 date: 2026-03-21
 ---
-
-
 
 ## 序言
 
@@ -23,5 +19,3 @@ date: 2026-03-21
   - 总录：各类人物合传，如《高士传》。
 
   - 杂录：笔记式的人物轶事。
-
-

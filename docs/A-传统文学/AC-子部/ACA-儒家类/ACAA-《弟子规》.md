@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 《弟子规》
 summary: 其书规定了子弟在家、出外、待人、接物与求学等方面应恪守的行为规范，核心是“孝、悌、谨、信、爱众、亲仁、学文”。
 date: 2026年04月13日10:04:34

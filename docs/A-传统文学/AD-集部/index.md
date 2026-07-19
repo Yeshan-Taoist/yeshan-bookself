@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 集部
 category: 集部
 date: 2026-03-21

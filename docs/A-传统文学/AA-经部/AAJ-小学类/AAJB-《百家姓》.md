@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 《百家姓》
 summary: 其书是姓氏的集合，无实际文义。其功能单一而明确：识字和熟悉常见姓氏。因其服务于教育体系，故归入“小学类”。
 date: 2026年04月28日08:31

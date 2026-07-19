@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 时令类
 category: 时令类
 date: 2026-03-21

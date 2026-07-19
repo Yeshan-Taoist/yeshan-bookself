@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 别集类
 category: 别集类
 date: 2026-03-21

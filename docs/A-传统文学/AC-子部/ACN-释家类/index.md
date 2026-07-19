@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 释家类
 category: 释家类
 date: 2026-03-21

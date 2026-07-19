@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 兵家类
 category: 兵家类
 date: 2026-03-21

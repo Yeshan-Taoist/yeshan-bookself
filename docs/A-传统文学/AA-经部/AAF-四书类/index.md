@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 四书类
 category: 四书类
 date: 2026-03-21

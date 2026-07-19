@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 五经总义类
 category: 五经总义类
 date: 2026-03-21

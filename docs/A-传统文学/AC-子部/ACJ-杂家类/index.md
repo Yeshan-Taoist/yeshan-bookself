@@ -1,12 +1,8 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 杂家类
 category: 杂家类
 date: 2026-03-21
 ---
-
-
 
 ## 序言
 
@@ -18,5 +14,3 @@ date: 2026-03-21
 
 - **特点：**
   - “兼儒墨，合名法”，思想博杂。
-
-

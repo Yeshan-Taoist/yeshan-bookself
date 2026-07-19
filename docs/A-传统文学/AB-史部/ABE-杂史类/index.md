@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 杂史类
 category: 杂史类
 date: 2026-03-21

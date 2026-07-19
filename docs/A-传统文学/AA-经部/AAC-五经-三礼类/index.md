@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 三礼类
 category: 三礼类
 date: 2026-03-21

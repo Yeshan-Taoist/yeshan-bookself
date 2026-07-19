@@ -61,8 +61,6 @@ const filteredList = computed(() => {
 <style scoped>
 .lingfu-container {
   font-family: "Noto Serif SC", "楷体", "KaiTi", serif;
-  background: #f9f3e3;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,8 +114,8 @@ table {
 
 caption {
   font-size: 1.3rem;
-  margin-bottom: 0.8rem;
   font-weight: bold;
+  color: #4a3620;
 }
 
 th,
@@ -133,11 +131,10 @@ thead th {
   font-weight: 500;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f3efe2;
-}
+
 
 tbody tr:hover {
   background-color: #dfd2b6;
+  color: #000000;
 }
 </style>

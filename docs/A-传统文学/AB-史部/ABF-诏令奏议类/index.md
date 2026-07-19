@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 诏令奏议类
 category: 诏令奏议类
 date: 2026-03-21

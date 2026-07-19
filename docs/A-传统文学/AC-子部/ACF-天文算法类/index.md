@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 天文算法类
 category: 天文算法类
 date: 2026-03-21

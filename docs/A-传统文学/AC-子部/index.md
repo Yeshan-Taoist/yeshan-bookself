@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 子部
 category: 子部
 date: 2026-03-21

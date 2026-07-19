@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 小说家类
 category: 小说家类
 date: 2026-03-21

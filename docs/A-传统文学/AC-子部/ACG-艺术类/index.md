@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 艺术类
 category: 艺术类
 date: 2026-03-21

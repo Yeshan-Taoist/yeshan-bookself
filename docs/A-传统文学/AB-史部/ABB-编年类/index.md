@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 编年类
 category: 编年类
 date: 2026-03-21

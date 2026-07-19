@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 尚书类
 category: 尚书类
 date: 2026-03-21

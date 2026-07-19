@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 地理类
 category: 地理类
 date: 2026-03-21

@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 总集类
 category: 总集类
 date: 2026-03-21

@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 小学类
 category: 小学类
 date: 2026-03-20

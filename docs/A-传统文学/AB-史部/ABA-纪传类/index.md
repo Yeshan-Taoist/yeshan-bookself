@@ -1,12 +1,8 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 纪传类
 category: 纪传类
 date: 2026-03-21
 ---
-
-
 
 ## 序言
 
@@ -18,5 +14,3 @@ date: 2026-03-21
 
 - 说明：
   - 地位最高，被视为最权威的历史记录。
-
-

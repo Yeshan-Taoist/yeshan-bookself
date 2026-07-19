@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 儒家类
 category: 儒家类
 date: 2026-03-21

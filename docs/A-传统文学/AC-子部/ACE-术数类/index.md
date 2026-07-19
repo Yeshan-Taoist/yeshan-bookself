@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 术数类
 category: 术数类
 date: 2026-03-21

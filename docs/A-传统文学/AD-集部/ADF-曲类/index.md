@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 曲类
 category: 曲类
 date: 2026-03-21

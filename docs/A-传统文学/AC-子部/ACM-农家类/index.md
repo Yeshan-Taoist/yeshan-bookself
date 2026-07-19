@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 农家类
 category: 农家类
 date: 2026-03-21

@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 别史类
 category: 别史类
 date: 2026-03-21

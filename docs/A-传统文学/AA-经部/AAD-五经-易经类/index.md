@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 易经类
 category: 易经类
 date: 2026-03-21

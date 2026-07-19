@@ -62,7 +62,7 @@ function toggleNode(node) {
 
 <style scoped>
 .mindmap-wrapper {
-  padding: 1.5rem;
+  padding: 0.5rem;
   background: #fdf8f0;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);

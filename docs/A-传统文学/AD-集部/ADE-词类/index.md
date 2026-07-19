@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 词类
 category: 词类
 date: 2026-03-21

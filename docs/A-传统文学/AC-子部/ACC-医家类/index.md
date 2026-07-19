@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 医家类
 category: 医家类
 date: 2026-03-21

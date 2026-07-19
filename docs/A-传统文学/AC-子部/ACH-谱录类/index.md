@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 谱录类
 category: 谱录类
 date: 2026-03-21

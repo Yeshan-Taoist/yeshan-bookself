@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 法家类
 category: 法家类
 date: 2026-03-21

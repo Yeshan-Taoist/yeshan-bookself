@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 孝经类
 category: 孝经类
 date: 2026-03-21

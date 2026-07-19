@@ -1,6 +1,4 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 纪事本末类
 category: 纪事本末类
 date: 2026-03-21

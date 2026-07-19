@@ -1,12 +1,8 @@
 ---
-layout: ArticleLayout
-navbar: false
 title: 载记类
 category: 载记类
 date: 2026-03-21
 ---
-
-
 
 ## 序言
 
@@ -18,5 +14,3 @@ date: 2026-03-21
 
 - 说明：
   - 可视为“地方性的霸史”或“非正统王朝史”。
-
-
