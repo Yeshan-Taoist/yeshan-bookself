@@ -1,37 +1,48 @@
 <template>
-  <div class="zawu-container">
+  <div class="qiwu-container">
+
     <div class="filter-section">
+      <!-- 分类筛选 -->
       <div class="filter-bar">
-        <button v-for="cat in zawuCategories" :key="cat.value"
+        <button v-for="cat in categories" :key="cat.value"
           :class="['filter-btn', { active: currentCategory === cat.value }]" @click="currentCategory = cat.value">
           {{ cat.label }}
+        </button>
+      </div>
+      <!-- 品阶筛选 -->
+      <div class="filter-bar">
+        <button v-for="grade in grades" :key="grade.value"
+          :class="['filter-btn', { active: currentGrade === grade.value }]" @click="currentGrade = grade.value">
+          {{ grade.label }}
         </button>
       </div>
     </div>
 
     <table>
-      <caption>修仙杂物一览</caption>
+      <caption>修仙器物一览</caption>
       <thead>
         <tr>
           <th>名称</th>
-          <th>类别</th>
+          <th>分类</th>
+          <th>品阶</th>
           <th>描述</th>
           <th>其他说明</th>
-          <th>出处</th>
           <th>价格</th>
+          <th>出处</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="item in filteredList" :key="item.name">
           <td>{{ item.name }}</td>
           <td>{{ item.category }}</td>
+          <td>{{ item.grade }}</td>
           <td>{{ item.description }}</td>
           <td>{{ item.notes || '—' }}</td>
-          <td>{{ item.obtain }}</td>
           <td>{{ item.price }}</td>
+          <td>{{ item.source || '—' }}</td>
         </tr>
         <tr v-if="filteredList.length === 0">
-          <td colspan="6" class="empty-row">暂无对应杂物</td>
+          <td colspan="7" class="empty-row">暂无对应器物</td>
         </tr>
       </tbody>
     </table>
@@ -40,18 +51,22 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { zawuData, zawuCategories } from '../../../data/zawu'  // 路径按实际调整
+import { qiwuData, categories, grades } from '../../../data/qiwu'
 
 const currentCategory = ref('all')
+const currentGrade = ref('all')
 
 const filteredList = computed(() => {
-  if (currentCategory.value === 'all') return zawuData
-  return zawuData.filter(item => item.category === currentCategory.value)
+  return qiwuData.filter(item => {
+    const matchCat = currentCategory.value === 'all' || item.category === currentCategory.value
+    const matchGrade = currentGrade.value === 'all' || item.grade === currentGrade.value
+    return matchCat && matchGrade
+  })
 })
 </script>
 
 <style scoped>
-.zawu-container {
+.qiwu-container {
   font-family: "Noto Serif SC", "楷体", "KaiTi", serif;
   display: flex;
   flex-direction: column;
@@ -59,7 +74,11 @@ const filteredList = computed(() => {
 }
 
 .filter-section {
-  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1.5rem 0;
 }
 
 .filter-bar {

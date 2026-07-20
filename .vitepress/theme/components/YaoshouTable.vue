@@ -1,5 +1,5 @@
 <template>
-  <div class="lingfu-container">
+  <div class="yaoshou-container">
 
     <div class="filter-section">
       <div class="filter-bar">
@@ -8,34 +8,31 @@
           {{ cat.label }}
         </button>
       </div>
-      <div class="filter-bar">
-        <button v-for="grade in grades" :key="grade.value"
-          :class="['filter-btn', { active: currentGrade === grade.value }]" @click="currentGrade = grade.value">
-          {{ grade.label }}
-        </button>
-      </div>
     </div>
 
     <table>
-      <caption>灵符等级、分类与价格总览</caption>
+      <caption>妖兽图鉴</caption>
       <thead>
         <tr>
-          <th>灵符名称</th>
+          <th>名称</th>
           <th>类别</th>
-          <th>等级</th>
-          <th>属性</th>
-          <th>效果说明</th>
-          <th>价格 (低阶灵石)</th>
+          <th>描述</th>
+          <th>其他说明</th>
+          <th>价格</th>
+          <th>出处</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="item in filteredList" :key="item.name">
           <td>{{ item.name }}</td>
           <td>{{ item.category }}</td>
-          <td>{{ item.grade }}</td>
-          <td>{{ item.attribute }}</td>
-          <td>{{ item.effect }}</td>
+          <td>{{ item.description }}</td>
+          <td>{{ item.notes || '—' }}</td>
           <td>{{ item.price }}</td>
+          <td>{{ item.source || '—' }}</td>
+        </tr>
+        <tr v-if="filteredList.length === 0">
+          <td colspan="6" class="empty-row">暂无对应妖兽</td>
         </tr>
       </tbody>
     </table>
@@ -44,39 +41,25 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { lingfuData, categories, grades } from '../../../data/lingfu'
+import { yaoshouData, categories } from '../../../data/yaoshou'
 
 const currentCategory = ref('all')
-const currentGrade = ref('all')
 
 const filteredList = computed(() => {
-  return lingfuData.filter(item => {
-    const matchCat = currentCategory.value === 'all' || item.category === currentCategory.value
-    const matchGrade = currentGrade.value === 'all' || item.grade === currentGrade.value
-    return matchCat && matchGrade
-  })
+  if (currentCategory.value === 'all') return yaoshouData
+  return yaoshouData.filter(item => item.category === currentCategory.value)
 })
 </script>
 
 <style scoped>
-.lingfu-container {
+.yaoshou-container {
   font-family: "Noto Serif SC", "楷体", "KaiTi", serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h1 {
-  color: #4a3620;
-  letter-spacing: 4px;
-  margin-bottom: 0.5rem;
-}
-
 .filter-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
   margin: 1.5rem 0;
 }
 
@@ -121,7 +104,7 @@ caption {
 th,
 td {
   border: 1px solid #c4b292;
-  padding: 12px 18px;
+  padding: 12px 16px;
   text-align: center;
 }
 
@@ -131,10 +114,13 @@ thead th {
   font-weight: 500;
 }
 
-
-
 tbody tr:hover {
   background-color: #dfd2b6;
   color: #000000;
+}
+
+.empty-row {
+  color: #8b7356;
+  font-style: italic;
 }
 </style>

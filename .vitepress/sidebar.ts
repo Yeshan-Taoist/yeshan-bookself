@@ -540,6 +540,34 @@ export const sidebar = [
           {
             "text": "凡人之人物",
             "link": "/docs/B-今人拾遗/BA-网络小说/BAC-凡人之人物"
+          },
+          {
+            "text": "凡人之符箓",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAD-凡人之符箓"
+          },
+          {
+            "text": "凡人之丹药",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAE-凡人之丹药"
+          },
+          {
+            "text": "凡人之器物",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAF-凡人之器物"
+          },
+          {
+            "text": "凡人之妖兽",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAG-凡人之妖兽"
+          },
+          {
+            "text": "凡人之法术",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAH-凡人之法术"
+          },
+          {
+            "text": "凡人之阵法",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAI-凡人之阵法"
+          },
+          {
+            "text": "凡人之杂物",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAJ-凡人之杂物"
           }
         ]
       },
