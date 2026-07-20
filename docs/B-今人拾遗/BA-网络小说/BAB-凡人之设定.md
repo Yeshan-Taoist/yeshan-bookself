@@ -197,12 +197,14 @@ date: 2026年07月19日16:30
           <li>第一层到第四层</li>
           <li>五感略微增强，体质略微提升</li>
           <li>头脑清明，记忆力略微增强</li>
+          <li>突破到第四层后产生神识</li>
         </ul>
       </li>
       <li>
         炼气中期
         <ul>
           <li>第五层到第八层</li>
+          <li>突破到第五层后，记忆力大增，有过目不忘的能力</li>
         </ul>
       </li>
       <li>
@@ -247,23 +249,28 @@ date: 2026年07月19日16:30
   <tr>
     <td >化神</td>
     <td >-</td>
+    <td >-</td>
   </tr>
   <tr>
     <td rowspan="3">中境界</td>
     <td >炼虚</td>
     <td >-</td>
+    <td >-</td>
   </tr>
   <tr>
     <td >合体</td>
+    <td >-</td>
     <td >-</td>
   </tr>
   <tr>
     <td >大乘</td>
     <td >-</td>
+    <td >-</td>
   </tr>
   <tr>
     <td >上境界</td>
     <td >渡劫</td>
+    <td >-</td>
     <td >-</td>
   </tr>
 </tbody></table>
