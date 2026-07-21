@@ -1,108 +1,132 @@
 /**
  * 丹药数据
  * 字段说明：
- *   name        - 名称
- *   category    - 类别（灵草 / 丹药）
- *   grade       - 品阶（凡人 / 炼气 / 筑基 / 结丹 / 元婴 / 化神 / 其他）
- *   description - 说明
- *   usage       - 用途
- *   price       - 价格
- *   source      - 出处
+ * - name
+ *  - 名称
+ * - category
+ *  - 类别（灵草/丹药）
+ * - grade
+ *  - 品阶（凡人/炼气/筑基/结丹/元婴/化神/其他）
+ * - description - 说明
+ * - usage       
+ *  - 用途
+ * - price       
+ *  - 价格
+ * - source      
+ *  - 出处
  */
 export const danyaoData = [
   // ---------- 灵草 ----------
   {
-    name: '黄精芝',
+    name: '七星草',
     category: '灵草',
     grade: '其他',
-    description: '千年灵草，药性温和，可入多种丹药',
-    usage: '炼制培元类丹药的主材',
-    price: '500 灵石/株',
-    source: '血色禁地'
+    description: '其他未知',
+    usage: '十年以上的七星草是制作符纸的最佳原料',
+    price: '不详',
+    source: '第一百三十七章 金竺笔'
   },
   {
-    name: '紫韵龙皇参',
+    name: '黄龙草',
     category: '灵草',
-    grade: '结丹',
-    description: '形如小龙，通体紫金，蕴含庞大灵气',
-    usage: '结丹期突破瓶颈所用丹药的核心材料',
-    price: '3000 灵石/株',
-    source: '乱星海秘境'
+    grade: '其他',
+    description: '十几年药龄的叶子有些发紫',
+    usage: '推断是炼制黄龙丹的主药',
+    price: '不详',
+    source: '第二十五章 插柳成'
   },
   {
-    name: '天元果',
+    name: '苦莲花',
     category: '灵草',
-    grade: '元婴',
-    description: '三百年开花，三百年结果，可直接吞服增长修为',
-    usage: '元婴期修士增进法力的珍稀灵果',
-    price: '8000 灵石/枚',
-    source: '大晋拍卖会'
+    grade: '其他',
+    description: '十几年药龄的开了九个花瓣',
+    usage: '推断是炼制清灵散的主药',
+    price: '不详',
+    source: '第二十五章 插柳成'
+  },
+  {
+    name: '忘忧果',
+    category: '灵草',
+    grade: '其他',
+    description: '十几年药龄的果皮变成了黑色',
+    usage: '推断是炼制忘忧丹的主药',
+    price: '不详',
+    source: '第二十五章 插柳成'
+  },
+  {
+    name: '三乌草',
+    category: '灵草',
+    grade: '其他',
+    description: '正常药龄的三乌草叶子是绿色的，百年药性是黄色，随着药龄增长，叶子渐渐的由黄色转变成了黄黑色，又由黄黑色变成了黑色，千年的叶子完全变得乌黑发亮',
+    usage: '推断是炼制金髓丸的主药',
+    price: '不详',
+    source: '第二十五章 插柳成'
+  },
+  {
+    name: '土菇花',
+    category: '灵草',
+    grade: '其他',
+    description: '不仅对普通人有很强的毒性，而且对修仙者的元神也大有妨碍',
+    usage: '不仅对普通人有很强的毒性，而且对修仙者的元神也大有妨碍',
+    price: '不详',
+    source: '第六十一章 神灭'
   },
 
   // ---------- 丹药 ----------
   {
+    name: '筑基丹',
+    category: '丹药',
+    grade: '筑基',
+    description: '丹方——主药：玉髓芝、紫猴花、天灵果；其他：千结花、黑芍草、金精参等三十一种辅药材，马老头的药园都有，只是需要数百年年份的火候；需要真火炼制，可以用地火代替',
+    usage: '筑基丹的三大作用是：①助炼气期修士突破境界瓶颈、筑基成功；②洗髓易经，改善体质；③精进法力',
+    price: '-',
+    source: '第一百五十九章 天地灵药'
+  },
+  {
+    name: '定颜丹',
+    category: '丹药',
+    grade: '其他',
+    description: '丹方：既不需要真火炼制，也没有什么不认识的药材作原料，全都是些很常见的品种；药材要求千年以上的药性，才能作为定颜丹原料来用；不需要真火炼制',
+    usage: '保持容颜不变',
+    price: '-',
+    source: '第一百五十九章 天地灵药'
+  },
+  {
     name: '黄龙丹',
     category: '丹药',
     grade: '炼气',
-    description: '固本培元，可增进炼气期修士法力',
-    usage: '炼气期日常修炼、突破小瓶颈',
-    price: '5 灵石/瓶',
-    source: '韩立炼制（太南小会出售）'
+    description: '有增加功力、脱胎换骨的妙用',
+    usage: '炼气期十层以下效果明显，十、十一层以量取胜',
+    price: '1块低阶灵石/颗',
+    source: '第二十七章 配灵药'
   },
   {
     name: '金髓丸',
     category: '丹药',
     grade: '炼气',
-    description: '比黄龙丹药力更强，适合炼气中后期',
-    usage: '炼气中期以上修士增进修为',
-    price: '8 灵石/瓶',
-    source: '韩立炼制'
-  },
-  {
-    name: '筑基丹',
-    category: '丹药',
-    grade: '筑基',
-    description: '炼气期大圆满修士突破筑基的必备丹药',
-    usage: '突破筑基瓶颈',
-    price: '2000 灵石/颗',
-    source: '黄枫谷配给 / 血色禁地试炼奖励'
-  },
-  {
-    name: '定颜丹',
-    category: '丹药',
-    grade: '凡人',
-    description: '驻颜养容，使容貌不老',
-    usage: '保持容颜不变',
-    price: '100 灵石/颗',
-    source: '坊市杂货铺'
+    description: '有增加功力、脱胎换骨的妙用',
+    usage: '炼气期十层以下效果明显，十、十一层以量取胜',
+    price: '1块低阶灵石/颗',
+    source: '第二十七章 配灵药'
   },
   {
     name: '清灵散',
     category: '丹药',
-    grade: '筑基',
-    description: '解毒灵药，可化解多种筑基期以下的毒素',
-    usage: '解毒',
-    price: '50 灵石/份',
-    source: '药王谷'
+    grade: '凡人',
+    description: '解毒圣药，能解天下千百种剧毒',
+    usage: '解毒圣药',
+    price: '-',
+    source: '第二十七章 配灵药'
   },
   {
-    name: '聚元丹',
+    name: '养精丹',
     category: '丹药',
-    grade: '结丹',
-    description: '大幅提升结丹期修士法力凝聚速度',
-    usage: '结丹期日常修炼',
-    price: '600 灵石/瓶',
-    source: '星宫秘制'
+    grade: '凡人',
+    description: '不论是受了多严重的内外伤，只要吃了这药一颗，即使不能起死回生，使伤势立刻痊愈，也可让伤势大为减轻，可保住性命',
+    usage: '对内外伤都有奇效的灵药',
+    price: '-',
+    source: '第二十七章 配灵药'
   },
-  {
-    name: '化婴丹',
-    category: '丹药',
-    grade: '元婴',
-    description: '传说中的灵丹，可助结丹大圆满修士突破元婴',
-    usage: '突破元婴瓶颈',
-    price: '50000 灵石/颗',
-    source: '大晋皇族密藏'
-  }
 ]
 
 /**

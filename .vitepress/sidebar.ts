@@ -568,6 +568,14 @@ export const sidebar = [
           {
             "text": "凡人之杂物",
             "link": "/docs/B-今人拾遗/BA-网络小说/BAJ-凡人之杂物"
+          },
+          {
+            "text": "凡人之地图",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAK-凡人之地图"
+          },
+          {
+            "text": "凡人之门派",
+            "link": "/docs/B-今人拾遗/BA-网络小说/BAL-凡人之门派"
           }
         ]
       },

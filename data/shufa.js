@@ -11,125 +11,141 @@
 export const shufaData = [
   // ---------- 攻击 ----------
   {
-    name: '火弹术',
+    name: '火花术',
     category: '攻击',
     grade: '初级·下阶',
-    description: '凝聚灵力发出火球，最基础的攻击法术',
-    price: '10 灵石（法术书）',
-    source: '坊市杂货铺'
+    description: '《基础咒决残本》中记载',
+    price: '-',
+    source: '第一百三十八章 制符之道'
   },
   {
-    name: '冰锥术',
+    name: '缠绕术',
     category: '攻击',
-    grade: '初级·中阶',
-    description: '凝水成冰，多发冰锥同时射出',
-    price: '30 灵石',
-    source: '黄枫谷传功阁'
+    grade: '初级·下阶',
+    description: '《基础咒决残本》中记载',
+    price: '-',
+    source: '第一百三十八章 制符之道'
   },
   {
-    name: '雷击术',
+    name: '冰冻术',
     category: '攻击',
-    grade: '初级·上阶',
-    description: '引一道雷电劈向目标，威力极大',
-    price: '80 灵石',
-    source: '太南小会'
+    grade: '初级·下阶',
+    description: '《基础咒决残本》中记载：范围性法术，可以让有水的地方凝结成冰，法术的威力大小，完全视施法者的法力深厚而定。若是大神通之人来施展，凝长江大河为冰川，也不是不可能的，炼气九层施法范围桌面大小',
+    price: '-',
+    source: '第一百三十八章 制符之道'
+  },
+  {
+    name: '流沙术',
+    category: '攻击',
+    grade: '初级·下阶',
+    description: '《基础咒决残本》中记载：范围性法术，可以让法力所及的地方化土为沙，法术的威力大小，完全视施法者的法力深厚而定。若是大神通之人来施展，就是化千里良田为沙漠，也不是不可能的，炼气九层施法范围桌面大小',
+    price: '-',
+    source: '第一百三十八章 制符之道'
   },
   {
     name: '地刺术',
     category: '攻击',
     grade: '初级·中阶',
-    description: '从地面突起尖锐石柱，出其不意攻击敌人',
-    price: '25 灵石',
-    source: '《基础咒决残本》记载'
+    description: '《基础咒决残本》中记载',
+    price: '-',
+    source: '第一百三十八章 制符之道'
+  },
+  {
+    name: '火弹术',
+    category: '攻击',
+    grade: '初级·下阶',
+    description: '墨老收藏的八层长春功手抄本中记载：发射火弹攻击敌人',
+    price: '-',
+    source: '第六十七章 火弹术'
   },
 
   // ---------- 防御 ----------
   {
-    name: '灵气护盾',
-    category: '防御',
-    grade: '初级·下阶',
-    description: '以灵力在周身形成透明护盾',
-    price: '8 灵石',
-    source: '宗门入门功法'
-  },
-  {
-    name: '土墙术',
-    category: '防御',
-    grade: '初级·中阶',
-    description: '从地面升起土墙，阻挡攻击',
-    price: '20 灵石',
-    source: '坊市法术店'
-  },
-  {
-    name: '冰甲术',
+    name: '-',
     category: '防御',
     grade: '初级·上阶',
-    description: '周身覆盖寒冰铠甲，大幅提升防御',
-    price: '70 灵石',
-    source: '《冰系法术精要》'
+    description: '-',
+    price: '-',
+    source: '-'
   },
 
   // ---------- 飞遁 ----------
   {
-    name: '御风术',
+    name: '升空术',
     category: '飞遁',
     grade: '初级·下阶',
-    description: '驾驭清风，身轻如燕，可短暂腾空',
-    price: '15 灵石',
-    source: '散修集市'
+    description: '《基础咒决残本》中记载',
+    price: '-',
+    source: '第一百三十八章 制符之道'
   },
   {
-    name: '踏云步',
+    name: '御风决',
     category: '飞遁',
-    grade: '初级·上阶',
-    description: '脚下生云，飞行速度大幅提升',
-    price: '60 灵石',
-    source: '清虚门藏经阁'
+    grade: '初级·下阶',
+    description: '墨老收藏的八层长春功手抄本中记载：对目标施展“御风诀”之后，可以使其身轻如燕，脚尖轻轻一点地，就可轻易的窜出数丈之远而毫不费力',
+    price: '-',
+    source: '第六十七章 火弹术'
   },
 
   // ---------- 符术 ----------
   {
-    name: '符箓绘制术',
-    category: '符术',
-    grade: '初级·下阶',
-    description: '学习绘制基础灵符的方法与灵力控制技巧',
-    price: '50 灵石（全套工具与教程）',
-    source: '金竺笔持有者必备'
-  },
-  {
-    name: '符阵初解',
+    name: '金刚术',
     category: '符术',
     grade: '初级·中阶',
-    description: '将多张符箓组合成简易阵法，增强威力',
-    price: '100 灵石',
-    source: '天符门残卷'
+    description: '金刚符也是一种符术，其口诀韩立早已从苦桑和尚口中得知',
+    price: '-',
+    source: '第一百四十三章 斩杀'
+  },
+  {
+    name: '传音术',
+    category: '符术',
+    grade: '初级·下阶',
+    description: '《基础咒决残本》中记载：辅助类符术，需要对应的符箓“传音符”',
+    price: '-',
+    source: '第一百三十八章 制符之道'
+  },
+  {
+    name: '定神术',
+    category: '符术',
+    grade: '初级·下阶',
+    description: '墨老收藏的八层长春功手抄本中记载：辅助类符术，需要对应的符箓“定神符”',
+    price: '-',
+    source: '第六十七章 火弹术'
   },
 
   // ---------- 辅助 ----------
   {
-    name: '回春术',
+    name: '匿身术',
     category: '辅助',
     grade: '初级·下阶',
-    description: '恢复轻微伤势，加速体力回复',
-    price: '12 灵石',
-    source: '药王谷学徒必修'
+    description: '《基础咒决残本》中记载：让灵力附在全身，使身体变成和周围环境相似的保护颜色，让人不易发觉罢了，“天眼术”可轻易的把它破掉',
+    price: '不详',
+    source: '第一百三十八章 制符之道'
   },
   {
-    name: '敛息术',
+    name: '观骨术',
     category: '辅助',
-    grade: '初级·上阶',
-    description: '隐藏自身修为与气息，避免被高阶修士察觉',
-    price: '90 灵石',
-    source: '散修隐秘传承'
+    grade: '初级·下阶',
+    description: '可以查看他人年龄',
+    price: '不详',
+    source: '第一百三十四章 升仙大会'
   },
   {
-    name: '定身术',
+    name: '驱物术',
     category: '辅助',
-    grade: '初级·中阶',
-    description: '短暂禁锢低阶修士或妖兽的行动',
-    price: '40 灵石',
-    source: '黄枫谷秘术阁'
-  }
+    grade: '初级·下阶',
+    description: '墨老收藏的八层长春功手抄本中记载：可以驱动法器、法宝、符箓等',
+    price: '不详',
+    source: '第七十五章 法武并用'
+  },
+  {
+    name: '天眼术',
+    category: '辅助',
+    grade: '初级·下阶',
+    description: '墨老收藏的八层长春功手抄本中记载：附着法力到双眼可以探查视力可及范围的目标，一种用来观察人体内是否拥有法力、以及法力的深厚与否的纯辅助型法术',
+    price: '不详',
+    source: '第六十七章 火弹术'
+  },
 ]
 
 /**
