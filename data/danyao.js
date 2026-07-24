@@ -18,6 +18,96 @@
 export const danyaoData = [
   // ---------- 灵草 ----------
   {
+    name: '金精参',
+    category: '灵草',
+    grade: '其他',
+    description: '筑基丹三十一种辅药之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十八章 蓝衣女子'
+  },
+  {
+    name: '黑芍草',
+    category: '灵草',
+    grade: '其他',
+    description: '筑基丹三十一种辅药之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十八章 蓝衣女子'
+  },
+  {
+    name: '千结花',
+    category: '灵草',
+    grade: '其他',
+    description: '筑基丹三十一种辅药之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十八章 蓝衣女子'
+  },
+  {
+    name: '天灵果',
+    category: '灵草',
+    grade: '其他',
+    description: '筑基丹三大主药之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十八章 蓝衣女子'
+  },
+  {
+    name: '紫猴花',
+    category: '灵草',
+    grade: '其他',
+    description: '筑基丹三大主药之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十八章 蓝衣女子'
+  },
+  {
+    name: '玉髓芝',
+    category: '灵草',
+    grade: '其他',
+    description: '筑基丹三大主药之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十八章 蓝衣女子'
+  },
+  {
+    name: '望月草',
+    category: '灵草',
+    grade: '其他',
+    description: '韩立初入百药园时，管事马姓小老头考校其草药见识，韩立认出的药草之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十一章 百药园'
+  },
+  {
+    name: '白鹤芝',
+    category: '灵草',
+    grade: '其他',
+    description: '韩立初入百药园时，管事马姓小老头考校其草药见识，韩立认出的药草之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十一章 百药园'
+  },
+  {
+    name: '黄球草',
+    category: '灵草',
+    grade: '其他',
+    description: '韩立初入百药园时，管事马姓小老头考校其草药见识，韩立认出的药草之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十一章 百药园'
+  },
+  {
+    name: '子夜花',
+    category: '灵草',
+    grade: '其他',
+    description: '韩立初入百药园时，管事马姓小老头考校其草药见识，韩立认出的药草之一',
+    usage: '不详',
+    price: '不详',
+    source: '第一百五十一章 百药园'
+  },
+  {
     name: '七星草',
     category: '灵草',
     grade: '其他',
@@ -66,11 +156,30 @@ export const danyaoData = [
     name: '土菇花',
     category: '灵草',
     grade: '其他',
-    description: '不仅对普通人有很强的毒性，而且对修仙者的元神也大有妨碍',
+    description: '不详',
     usage: '不仅对普通人有很强的毒性，而且对修仙者的元神也大有妨碍',
     price: '不详',
     source: '第六十一章 神灭'
   },
+  {
+    name: '红油花',
+    category: '灵草',
+    grade: '其他',
+    description: '余子童向韩立讲述其和墨居仁恩怨由来提及：一株很罕见的血灵草，这灵草与普通的红油花很相似',
+    usage: '不详',
+    price: '不详',
+    source: '第五十八章 修仙者'
+  },
+  {
+    name: '血灵草',
+    category: '灵草',
+    grade: '其他',
+    description: '余子童向韩立讲述其和墨居仁恩怨由来提及：一株很罕见的血灵草，这灵草与普通的红油花很相似',
+    usage: '有助于余子童突破炼气期的瓶颈',
+    price: '不详',
+    source: '第五十八章 修仙者'
+  },
+
 
   // ---------- 丹药 ----------
   {
@@ -80,7 +189,7 @@ export const danyaoData = [
     description: '丹方——主药：玉髓芝、紫猴花、天灵果；其他：千结花、黑芍草、金精参等三十一种辅药材，马老头的药园都有，只是需要数百年年份的火候；需要真火炼制，可以用地火代替',
     usage: '筑基丹的三大作用是：①助炼气期修士突破境界瓶颈、筑基成功；②洗髓易经，改善体质；③精进法力',
     price: '-',
-    source: '第一百五十九章 天地灵药'
+    source: '第一百五十八章 蓝衣女子'
   },
   {
     name: '定颜丹',
@@ -90,6 +199,15 @@ export const danyaoData = [
     usage: '保持容颜不变',
     price: '-',
     source: '第一百五十九章 天地灵药'
+  },
+  {
+    name: '合气丹',
+    category: '丹药',
+    grade: '筑基',
+    description: '丹方：未知，百机堂管事叶姓老者谋夺韩立筑基丹时答应分给吴姓老者一半',
+    usage: '推断为增进筑基期法力',
+    price: '-',
+    source: '第一百五十章 悔诺'
   },
   {
     name: '黄龙丹',
